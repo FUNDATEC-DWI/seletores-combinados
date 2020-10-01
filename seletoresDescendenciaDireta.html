@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="classe1">
+      Texto A
+      <div class="classe2">Texto B</div>
+    </div>
+    <hr />
+    <div class="classe1">
+      Texto A
+      <div>
+        <div class="classe2">Texto B</div>
+      </div>
+    </div>
+
+    <style>
+      .classe1 {
+        font-size: 40px;
+      }
+
+      .classe1 > .classe2 {
+        color: blue;
+      }
+    </style>
+  </body>
+</html>
